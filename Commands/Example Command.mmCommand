@@ -1,0 +1,11 @@
+{	name = "Example Command";
+	uuid = "FBB98B32-10DA-402D-971C-0BCADE4F8D97";
+	// environment = "MM_FROM_NAME=${from.name:${from.address}}\n"; // Setup 1 or more environment variables using a format string. 
+	input = "canonical"; // Options are: none, raw, decoded, canonical, html, selection, formatted
+	// output = "actions"; // Options are: discard, actions
+	// executionMode = "singleMessage"; // Options are: noMessages, singleMessage, multipleMessages
+	script = "#!/bin/bash\n/bin/helper";
+	// keyEquivalent = "^o"; // Keyboard shortcut
+	// conditions = "list-id exists"; // Can be used to ensure that a command only applies to certain types of messages.
+	// Other options are formatString, separatorString, suffixString, filesPattern, saveForEditing, ...
+}
